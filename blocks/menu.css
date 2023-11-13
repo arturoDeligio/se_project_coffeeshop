@@ -34,35 +34,3 @@
   gap: 100px;
   list-style-type: none;
 }
-
-.card {
-  width: 540px;
-}
-
-.card__title {
-  margin: 0 0 32px;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.card__list-divider {
-  border-bottom: 1px solid black;
-  flex-grow: 1;
-  margin: 0 10px 0;
-}
-
-.card__list-item {
-  margin-bottom: 16px;
-  font-family: Noto serif, Times New Roman, sans-serif;
-  display: flex;
-}
-
-.card__list-item:last-child {
-  margin-bottom: 0;
-}
