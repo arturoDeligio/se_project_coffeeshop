@@ -10,6 +10,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -36,6 +37,7 @@
   line-height: 30px;
   margin: 28px 0 0;
   font-family: Noto Serif, Times New Roman, sans-serif;
+  z-index: 2;
 }
 
 .header__footer {
@@ -44,6 +46,7 @@
   margin-top: auto;
   font-weight: 500;
   color: #838383;
+  z-index: 2;
 }
 
 .header__paragraph {
